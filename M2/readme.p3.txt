@@ -1,4 +1,4 @@
-I am a good person.
-John Hess
-jhess37@gatech.edu
+Name - John Hess
+Email - jhess37@gatech.edu
+ID - jhess37
 
