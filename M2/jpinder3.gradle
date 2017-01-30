@@ -1,0 +1,13 @@
+defaultTask 'jar'
+
+apply plugin: 'java'
+
+dependencies {
+    'lib/resources.jar'
+}
+
+jar {
+    manifest {
+        
+    }
+}
