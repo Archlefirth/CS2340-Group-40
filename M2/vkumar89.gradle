@@ -1,0 +1,36 @@
+apply plugin: 'java'
+
+defaultTasks 'jar'
+
+
+compileJava {
+
+}
+
+compileTestJava {
+
+}
+
+javadoc {
+
+    destinationDir = file("doc/javadoc")
+
+}
+
+clean {
+}
+
+jar {
+    baseName = 'M2'
+    manifest {
+
+        attributes("Class-Path": "/lib/resources.jar", "Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain")
+
+    }
+}
+
+dependencies {
+
+    compile files("lib/resources.jar")
+
+}
