@@ -3,11 +3,9 @@ apply plugin: 'java'
 defaultTasks 'jar'
 
 compileJava {
-
 }
 
 compileTestJava {
-
 }
 
 javadoc {
@@ -15,7 +13,6 @@ javadoc {
 }
 
 clean {
-
 }
 
 jar {
