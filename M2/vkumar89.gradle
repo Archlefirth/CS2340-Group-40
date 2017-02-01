@@ -21,7 +21,6 @@ clean {
 }
 
 jar {
-
     baseName = 'M2'
     manifest {
 
