@@ -6,6 +6,17 @@ dependencies {
     compile files('lib/resources.jar')
 }
 
+compileJava {
+}
+
+compileTestJava {
+
+}
+
+clean {
+
+}
+
 jar {
     basename:
     manifest {
