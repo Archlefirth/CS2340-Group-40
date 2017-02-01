@@ -2,7 +2,6 @@ apply plugin: 'java'
 
 defaultTasks 'jar'
 
-
 jar {
     baseName = 'M2-jpinder3'
     manifest {
