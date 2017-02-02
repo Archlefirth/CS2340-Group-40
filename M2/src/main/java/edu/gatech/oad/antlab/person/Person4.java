@@ -40,6 +40,7 @@ public class Person4 {
            char current = (char)(input.charAt(i) + 1);
            myString += current;
       }
+      int myLife = 0;
       return myString;
     }
     
