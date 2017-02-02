@@ -18,7 +18,7 @@ clean {
 jar {
     baseName = 'M2'
     manifest {
-        attributes("Class-Path": "/lib/resources.jar", "Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain")
+        attributes("Class-Path": "../../lib/resources.jar", "Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain")
     }
 }
 

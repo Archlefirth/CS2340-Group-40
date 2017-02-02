@@ -1,4 +1,8 @@
 package edu.gatech.oad.antlab.person;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
 
 /**
  *  A simple class for person 4
@@ -31,7 +35,12 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+      String myString = "";
+      for (int i = 0; i < input.length(); i++) {
+           char current = (char)(input.charAt(i) + 1);
+           myString += current;
+      }
+      return myString;
     }
     
     /**
@@ -45,6 +54,8 @@ public class Person4 {
     public String toString(String input) {
       return name + calc(input);
     }
+
+
 
 }
 
