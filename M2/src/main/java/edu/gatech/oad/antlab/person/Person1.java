@@ -43,7 +43,6 @@ public class Person1 {
 		}
 		for (int q = 0; q < temp.length; q++) {
 			returnVal = returnVal + temp[q];
-			System.out.println(q + ": " + returnVal);
 		}
 		return returnVal;
 	}
