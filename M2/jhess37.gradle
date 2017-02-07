@@ -4,7 +4,7 @@ defaultTasks 'jar'
 
 
 jar {
-    baseName = 'M2'
+    baseName = 'M2-jhess37'
     manifest {
         attributes("Class-Path": "../../lib/resources.jar", "Main-Class": "edu.gatech.oad.antlab.pkg1.AntLabMain")
     }
